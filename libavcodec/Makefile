@@ -158,6 +158,8 @@ OBJS-$(CONFIG_WMA_FREQS)               += wma_freqs.o
 OBJS-$(CONFIG_WMV2DSP)                 += wmv2dsp.o
 
 # decoders/encoders
+OBJS-$(CONFIG_COOL_DECODER)            += cooldec.o
+OBJS-$(CONFIG_COOL_ENCODER)            += coolenc.o
 OBJS-$(CONFIG_ZERO12V_DECODER)         += 012v.o
 OBJS-$(CONFIG_A64MULTI_ENCODER)        += a64multienc.o elbg.o
 OBJS-$(CONFIG_A64MULTI5_ENCODER)       += a64multienc.o elbg.o
